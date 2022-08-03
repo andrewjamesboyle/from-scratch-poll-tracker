@@ -22,7 +22,37 @@
     </header>
 
     <main>
+        <h1>Poll Tracker</h1>
+        <section id="current-poll-div">This is where the Current Poll stats will get injected.
+        </section>
+        <section id="vote-buttons">
+            <button id="add-option-one">ADD VOTE (1)</button>
+            <button id="subtract-option-one">SUBTRACT VOTE (1)</button>
+            <button id="add-option-two">ADD VOTE (2)</button>
+            <button id="subtract-option-two">SUBTRACT VOTE (2)</button>
 
+        </section>
+        <section>
+            <button id="publish-poll">Publish Poll</button>
+        </section>
+        <section>
+            <form id="current-poll-form">
+                <label>
+                    Question
+                    <input name="question" />
+                </label>
+                <label>
+                    Option 1
+                    <input name="option-one" />
+                </label>
+                <label>
+                    Option 2
+                    <input name="option-two" />
+                </label>
+                <button>Start Poll</button>
+            </form>
+        </section>
+        <section id="past-polls-array">Past Polls Will Display Here</section>
     </main>
 
     <footer>&copy;2022 Software Developer</footer>
